@@ -76,7 +76,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 2***
 * Open the bitvise application and fill in the "Hostname" box with the IP of your VPS.
-![Example-PuttyInstaller](https://i.imgur.com/vkN1alC.png)
+![Example-PuttyInstaller](https://i.imgur.com/lhpvq10.png)
 ***
 
 ***Step 3***
@@ -86,12 +86,12 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 4***
 * Type "root" as the login/username.
-![Example-Root](https://i.imgur.com/11GMkvA.png)
+![Example-Root](https://i.imgur.com/BrT9a7i.png)
 ***
 
 ***Step 5***
 * Paste the password into the Bitvise terminal by right clicking (it will not show the password so just press enter)
-![Example-RootPassEnter](https://i.imgur.com/zVhOAKu.png)
+![Example-RootPassEnter](https://i.imgur.com/GCyPXnL.png) 
 ***
 
 ***Step 6***
@@ -100,7 +100,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 7***
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
-![Example-RootPassEnter](https://i.imgur.com/K6xlnav.png)
+![Example-RootPassEnter](https://i.imgur.com/cZlEUSE.png)
 
 `wget -q https://raw.githubusercontent.com/N8VCoin/N8Vcoin-Masternode-Script/master/n8v_install.sh`
 ***
@@ -110,7 +110,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 `bash n8v_install.sh`
 
-![Example-Bash](https://i.imgur.com/myvmKTE.png)
+![Example-Bash](https://i.imgur.com/FMQOaFI.png)
 
 ***
 
