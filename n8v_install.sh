@@ -27,7 +27,7 @@ MAG='\e[1;35m'
 
 
 function download_node() {
-  echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
+  echo -e "${GREEN}Downloading and Installing Masternode for $COIN_NAME ${NC}"
   OLD_DIR=$(pwd)
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
@@ -101,7 +101,7 @@ EOF
 }
 
 function create_key() {
-  echo -e "${YELLOW}Enter your ${RED}$COIN_NAME Masternode GEN Key${NC}."
+  echo -e "${YELLOW}Please enter your ${RED}$COIN_NAME Masternode GEN Key${NC}."
   read -e COINKEY
   if [[ -z "$COINKEY" ]]; then
   $COIN_DAEMON -daemon
@@ -234,7 +234,7 @@ function important_information() {
   echo -e "${CYAN}Ensure Node is fully SYNCED with BLOCKCHAIN.${NC}"
   echo -e "${BLUE}================================================================================================================================${NC}"
   echo -e "${GREEN}Usage Commands.${NC}"
-  echo -e "${GREEN}$COIN_CLI masternode status${NC}"
+  echo -e "${GREEN}$COIN_CLI getmasternodestatus${NC}"
   echo -e "${GREEN}$COIN_CLI getinfo${NC}"
   echo -e "${BLUE}================================================================================================================================${NC}"
  }
