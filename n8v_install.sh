@@ -9,7 +9,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/n8VCoin/N8Vcoin'
 COIN_TGZ='https://github.com/N8VCoin/n8v-seeder/releases/download/v1.0.0.0/daemon.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='nativecoin'
+COIN_NAME='NativeCoin'
 COIN_PORT=8848
 RPC_PORT=8849
 
@@ -28,13 +28,15 @@ MAG='\e[1;35m'
 
 function download_node() {
   echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
+  OLD_DIR=$(pwd)
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
   compile_error
-  upzip -x $COIN_ZIP >/dev/null 2>&1
-  cd daemon
-  cp $COIN_DAEMON $COIN_CLI $COIN_PATH
-  cd ~ >/dev/null 2>&1
+  unzip -x $COIN_ZIP >/dev/null 2>&1
+  cd daemon >/dev/null 2>&1
+  chmod +x * >/dev/null 2>&1
+  mv $COIN_DAEMON $COIN_CLI $COIN_PATH >/dev/null 2>&1
+  cd $(OLD_DIR) >/dev/null 2>&1
   rm -rf $TMP_FOLDER >/dev/null 2>&1
   clear
 }
