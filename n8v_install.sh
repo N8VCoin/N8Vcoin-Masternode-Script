@@ -7,9 +7,9 @@ COIN_DAEMON='nativecoind'
 COIN_CLI='nativecoin-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/n8VCoin/N8Vcoin'
-COIN_TGZ='https://github.com/N8VCoin/n8v-seeder/releases/download/v1.0.0.0/Ubuntu.18.04.daemon.zip'
+COIN_TGZ='https://github.com/N8VCoin/n8v-seeder/releases/download/v1.0.0.0/daemon.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='nativecoind'
+COIN_NAME='nativecoin'
 COIN_PORT=8848
 RPC_PORT=8849
 
@@ -32,7 +32,7 @@ function download_node() {
   wget -q $COIN_TGZ
   compile_error
   upzip -x $COIN_ZIP >/dev/null 2>&1
-  cd Ubuntu.18.04.daemon
+  cd daemon
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
   cd ~ >/dev/null 2>&1
   rm -rf $TMP_FOLDER >/dev/null 2>&1
