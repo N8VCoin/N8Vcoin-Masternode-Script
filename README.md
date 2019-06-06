@@ -33,7 +33,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 4***
-* Choose a server type: Ubuntu 16.04
+* Choose a server type: Ubuntu 18.04
 ![Example-OS](https://i.imgur.com/aSMqHUK.png)
 ***
 
