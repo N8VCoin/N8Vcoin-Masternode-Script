@@ -1,17 +1,17 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='N8Vcoin.conf'
-CONFIGFOLDER='/root/.N8Vcoin'
-COIN_DAEMON='n8vcoind'
-COIN_CLI='n8vcoin-cli'
+CONFIG_FILE='nativecoin.conf'
+CONFIGFOLDER='/root/.nativecoin'
+COIN_DAEMON='nativecoind'
+COIN_CLI='nativecoin-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/n8VCoin/N8Vcoin'
-COIN_TGZ='https://github.com/n8vCoin/N8Vcoin/releases/download/1.0.0/N8Vcoin-1.0.0-x86_64-linux-gnu.tar.gz'
+COIN_TGZ='https://github.com/N8VCoin/nativecoin/releases/download/v1.0.0/Ubuntu.18.04.daemon.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='n8vcoind'
-COIN_PORT=8840
-RPC_PORT=8841
+COIN_NAME='nativecoind'
+COIN_PORT=8848
+RPC_PORT=8849
 
 NODEIP=$(curl -s4 icanhazip.com)
 
@@ -31,8 +31,8 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
   compile_error
-  tar xvzf $COIN_ZIP >/dev/null 2>&1
-  cd N8Vcoin-1.0.0-x86_64-linux
+  upzip -x $COIN_ZIP >/dev/null 2>&1
+  cd Ubuntu.18.04.daemon
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
   cd ~ >/dev/null 2>&1
   rm -rf $TMP_FOLDER >/dev/null 2>&1
@@ -132,10 +132,6 @@ masternodeaddr=$NODEIP:$COIN_PORT
 
 #Nodes
 
-addnode=144.202.94.7:8840
-addnode=8.9.37.252:8840
-addnode=155.138.144.143:8840
-addnode=45.77.2.9:8840
 
 
 EOF
