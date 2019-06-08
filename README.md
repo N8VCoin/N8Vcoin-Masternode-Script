@@ -34,7 +34,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 4***
 * Choose a server type: Ubuntu 18.04
-![Example-OS](https://i.imgur.com/iLXMCtg.png)
+![Example-OS](https://i.imgur.com/kRsY2er.png)
 ***
 
 ***Step 5***
