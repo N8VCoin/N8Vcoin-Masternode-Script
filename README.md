@@ -1,12 +1,12 @@
 ![N8Vcoin-Logo](https://i.imgur.com/j0uzmcV.png)
-# N8V Masternode Setup Guide
-This guide will assist you in setting up a N8Vcoin Masternode on a Linux Server running Ubuntu. (Use at your own risk)
+# NativeCoin Masternode Setup Guide Ubuntu 18.04
+This guide will assist you in setting up a N8Vcoin Masternode on a Linux Server running Ubuntu 18.04. (Use at your own risk)
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/YQqBKT2) or [Telegram](https://t.me/NativeCoinOfficial)
 ***
 ## Requirements
 1) **25,000 N8V coins.**
-2) **A Vultr VPS running Linux Ubuntu**
+2) **A Vultr VPS running Linux Ubuntu 18.04**
 3) **A Windows local wallet.**
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
 ***
