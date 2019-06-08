@@ -121,15 +121,15 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 10***
-* When prompted to enter your Gen key - Paste your genkey from going to Tools Debug Console "createmasternodekey"
+* When prompted to enter your Gen key - Paste your genkey from going to Tools Debug Console ***"createmasternodekey"***
 
-![Example-installing](https://i.imgur.com/sLvWd1S.png)
+![Example-installing](https://i.imgur.com/JsnyxQn.png)
 ***
 
 ***Step 11***
 * You will now see all of the relavant information for your server.
 * Keep this terminal open as we will need the info for the wallet setup.
-![Example-installing](https://i.imgur.com/Q87LcnW.png)
+![Example-installing](https://i.imgur.com/goGoFhS.png)
 ***
 
 ## Section D: Preparing the Local wallet
