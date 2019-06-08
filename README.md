@@ -100,7 +100,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 7***
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
-![Example-RootPassEnter](https://i.imgur.com/cZlEUSE.png)
+![Example-RootPassEnter](https://i.imgur.com/ZnTInlO.png)
 
 `wget -q https://raw.githubusercontent.com/N8VCoin/N8Vcoin-Masternode-Script/master/n8v_install.sh`
 ***
@@ -110,12 +110,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 `bash n8v_install.sh`
 
-![Example-Bash](https://i.imgur.com/FMQOaFI.png)
+![Example-Bash](https://i.imgur.com/ENZvcHk.png)
 
 ***
 
 ***Step 9***
 * Sit back and wait for the install (this will take 10-20 mins)
+
+(https://i.imgur.com/HFFBcQU.png)
 ***
 
 ***Step 10***
