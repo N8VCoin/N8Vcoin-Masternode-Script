@@ -142,17 +142,13 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Send EXACLY 25,000 N8V to a receive address within your wallet.
 ***
 
-***Step 3***
-* Create a text document to temporarily store information that you will need.
-***
-
-***step 4***
+***step 3***
 * Go to the console within the wallet
 
 ![Example-console](https://i.imgur.com/6u17sDA.png)
 ***
 
-***Step 5***
+***Step 4***
 * Type the command below and press enter
 
 `getmasternodeoutputs`
@@ -160,9 +156,8 @@ If you require further assistance contact the support team @ [Discord](https://d
 ![Example-outputs](https://i.imgur.com/RMe8oJs.png)
 ***
 
-***Step 6***
+***Step 5***
 * Copy the long key (this is your transaction ID) and the 1 or 2 at the end (this is your output index)
-* Paste these into the text document you created earlier as you will need them in the next step.
 ***
 
 # Section E: Connecting & Starting the masternode
