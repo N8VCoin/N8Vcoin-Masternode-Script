@@ -85,7 +85,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 4***
-* Type "root" as the login/username.
+* Type "root" as the login/username. Make Sure Both Boxes are checked!
 ![Example-Root](https://i.imgur.com/BrT9a7i.png)
 ***
 
