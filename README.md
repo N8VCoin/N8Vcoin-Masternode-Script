@@ -121,7 +121,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 10***
-* When prompted to enter your Gen key - press enter
+* When prompted to enter your Gen key - Paste your genkey from going to Tools Debug Console "createmasternodekey"
 
 ![Example-installing](https://i.imgur.com/sLvWd1S.png)
 ***
