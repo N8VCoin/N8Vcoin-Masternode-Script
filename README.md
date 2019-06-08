@@ -117,7 +117,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 9***
 * Sit back and wait for the install (this will take 10-20 mins)
 
-(https://i.imgur.com/HFFBcQU.png)
+![Example-installing](https://i.imgur.com/HFFBcQU.png)
 ***
 
 ***Step 10***
