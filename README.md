@@ -192,7 +192,7 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`n8vcoin-cli getmasternodestatus`
+`nativecoin-cli getmasternodestatus`
 
 *You should see ***status 4***
 
