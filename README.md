@@ -198,6 +198,8 @@ Click "File Save"
 
 *You should see ***status 4***
 
+![Example-create](https://i.imgur.com/IVpE2Wr.png)
+
 If you do, congratulations! You have now setup a masternode. If you do not, please contact support and they will assist you.  
 ***
 
