@@ -75,7 +75,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 2***
-* Open the bitvise application and fill in the "Hostname" box with the IP of your VPS.
+* Open the bitvise application and fill in the "Hostname" box with the IP of your VPS and PORT ***22***.
 ![Example-PuttyInstaller](https://i.imgur.com/lhpvq10.png)
 ***
 
