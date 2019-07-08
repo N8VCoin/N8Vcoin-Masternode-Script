@@ -133,7 +133,41 @@ logtimestamps=1
 masternodeaddr=$NODEIP:$COIN_PORT
 
 #Nodes
-
+addnode=1.119.137.186
+addnode=104.207.157.167
+addnode=104.238.154.99
+addnode=140.82.19.83
+addnode=140.82.3.21
+addnode=144.202.95.248
+addnode=149.28.161.55
+addnode=149.28.37.90
+addnode=155.138.227.193
+addnode=157.230.224.154
+addnode=159.89.117.254
+addnode=165.22.50.200
+addnode=174.16.189.27
+addnode=206.189.163.62
+addnode=207.246.92.196
+addnode=24.17.34.52
+addnode=45.32.144.9
+addnode=45.63.70.41
+addnode=45.63.77.24
+addnode=45.76.188.182
+addnode=45.76.242.10
+addnode=45.77.211.184
+addnode=50.125.73.237
+addnode=66.42.93.213
+addnode=71.33.164.190
+addnode=71.33.192.100
+addnode=73.109.60.71
+addnode=76.121.62.235
+addnode=78.141.198.101
+addnode=80.211.87.33
+addnode=81.11.161.240
+addnode=85.19.25.38
+addnode=95.179.194.15
+addnode=95.179.252.213
+addnode=95.216.193.2
 
 
 EOF
