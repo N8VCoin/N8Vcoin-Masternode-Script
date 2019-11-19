@@ -1,7 +1,3 @@
-# This Repo Was Commited By SpeedX's Commit Bot
-### GITHUB LINK
-<a href='https://github.com/thespeedx/commit-bot'> Click Here </a>
-
 ![N8Vcoin-Logo](https://i.imgur.com/j0uzmcV.png)
 # NativeCoin Masternode Setup Guide Ubuntu 18.04
 This guide will assist you in setting up a N8Vcoin Masternode on a Linux Server running Ubuntu 18.04. (Use at your own risk)
